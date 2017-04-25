@@ -1,0 +1,561 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "value": 1,
+      "text": "Milano",
+      "coords": [
+        45.4789074,
+        9.189704
+      ],
+      "data-addr": "Via Castelfidardo, 9"
+    },
+    {
+      "id": 2,
+      "value": 2,
+      "text": "Roma",
+      "coords": [
+        41.9096082,
+        12.4906966
+      ],
+      "data-addr": "Via Campania, 45"
+    },
+    {
+      "id": 3,
+      "value": 3,
+      "text": "Firenze",
+      "coords": [
+        43.7780516,
+        11.2531039
+      ],
+      "data-addr": "Via Nazionale, 126"
+    },
+    {
+      "id": 4,
+      "value": 4,
+      "text": "Napoli",
+      "coords": [
+        40.845568,
+        14.2299696
+      ],
+      "data-addr": "Via Massimo Stanzione, 21"
+    },
+    {
+      "id": 5,
+      "value": 5,
+      "text": "Catania",
+      "coords": [
+        37.5150033,
+        15.0947567
+      ],
+      "data-addr": "Corso Italia, 41"
+    }
+  ],
+  "calendars": [
+    {
+      "calendar": [
+        {
+          "date": "27/4/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Mario Rossi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            },
+            {
+              "time": "11:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": [
+            "16:00",
+            "17:00"
+          ]
+        },
+        {
+          "date": "28/4/2017",
+          "booked": [],
+          "disabled": "all"
+        },
+        {
+          "date": "3/5/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Mario Rossi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "10:00",
+              "contact": {
+                "name": "Mario Verdi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            },
+            {
+              "time": "17:00",
+              "contact": {
+                "name": "Carlo Neri",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            }
+          ],
+          "disabled": [
+            "11:00",
+            "12:00",
+            "16:00",
+            "18:00"
+          ]
+        },
+        {
+          "date": "4/5/2017",
+          "booked": [],
+          "disabled": [
+            "11:00",
+            "12:00"
+          ]
+        },
+        {
+          "date": "5/5/2017",
+          "booked": [
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "27/5/2017",
+          "booked": [
+            {
+              "time": "17:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "26/4/2017",
+          "booked": [
+            {
+              "time": "16:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "6/5/2017",
+          "booked": [],
+          "disabled": "all"
+        },
+        {
+          "date": "1/5/2017",
+          "booked": [],
+          "disabled": [
+            "17:00",
+            "16:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "22/5/2017",
+          "booked": [],
+          "disabled": []
+        },
+        {
+          "date": "23/5/2017",
+          "booked": [],
+          "disabled": "all"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "calendar": [
+        {
+          "date": "27/4/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Mario Rossi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            }
+          ],
+          "disabled": [
+            "16:00",
+            "17:00"
+          ]
+        },
+        {
+          "date": "28/4/2017",
+          "booked": [],
+          "disabled": "all"
+        },
+        {
+          "date": "2/5/2017",
+          "booked": [
+            {
+              "time": "18:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "11/5/2017",
+          "booked": [
+            {
+              "time": "12:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "3/5/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "29/4/2017",
+          "booked": [],
+          "disabled": [
+            "10:00",
+            "11:00",
+            "12:00"
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "calendar": [
+        {
+          "date": "27/4/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Mario Rossi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            },
+            {
+              "time": "12:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": [
+            "16:00",
+            "17:00"
+          ]
+        },
+        {
+          "date": "28/4/2017",
+          "booked": [],
+          "disabled": "all"
+        },
+        {
+          "date": "29/4/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "6/5/2017",
+          "booked": [
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "calendar": [
+        {
+          "date": "27/4/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Mario Rossi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            }
+          ],
+          "disabled": [
+            "16:00",
+            "17:00"
+          ]
+        },
+        {
+          "date": "28/4/2017",
+          "booked": [],
+          "disabled": "all"
+        },
+        {
+          "date": "25/4/2017",
+          "booked": [
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            },
+            {
+              "time": "16:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        }
+      ]
+    },
+    {
+      "calendar": [
+        {
+          "date": "27/4/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Mario Rossi",
+                "mail": "m.rossi@fakemail.it",
+                "phone": "33912345678"
+              }
+            },
+            {
+              "time": "15:00",
+              "contact": {
+                "name": "Carlo Bianchi",
+                "mail": "c.bianchi@fakemail.it",
+                "phone": "33987654321"
+              }
+            }
+          ],
+          "disabled": [
+            "16:00",
+            "17:00"
+          ]
+        },
+        {
+          "date": "28/4/2017",
+          "booked": [],
+          "disabled": "all"
+        },
+        {
+          "date": "2/5/2017",
+          "booked": [
+            {
+              "time": "16:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "4/5/2017",
+          "booked": [
+            {
+              "time": "11:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": [
+            "16:00",
+            "17:00",
+            "18:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "12/5/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "31/5/2017",
+          "booked": [
+            {
+              "time": "9:00",
+              "contact": {
+                "name": "Gianluca Buoncompagni",
+                "mail": "gbuonc@gmail.com",
+                "phone": "3397794186"
+              }
+            }
+          ],
+          "disabled": []
+        },
+        {
+          "date": "27/6/2017",
+          "booked": [],
+          "disabled": [
+            "9:00",
+            "10:00",
+            "11:00",
+            "12:00"
+          ]
+        },
+        {
+          "date": "26/6/2017",
+          "booked": [],
+          "disabled": [
+            "11:00",
+            "12:00",
+            "15:00",
+            "16:00",
+            "17:00",
+            "18:00"
+          ]
+        },
+        {
+          "date": "1/5/2017",
+          "booked": [],
+          "disabled": "all"
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

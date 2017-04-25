@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Describe test here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app & json-server --watch db.json --port 3001",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "formsy-react": "^0.19.2",
+    "formsy-semantic-ui-react": "^0.2.2",
+    "react": "^15.5.4",
+    "react-day-picker": "^5.2.3",
+    "react-dom": "^15.5.4",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.68.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.9.6",
+    "nwb": "0.15.x",
+    "superagent": "^3.5.2"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}

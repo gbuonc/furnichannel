@@ -1,0 +1,73 @@
+html, body, #app {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 1rem;
+  color: #fff;
+  background: #82aabd;
+  z-index: 1002;
+}
+.app{padding-top: 5rem; max-width: 1020px; margin: 0 auto;}
+.ui.selection.simple.dropdown{z-index: 1001;} /* show above dimmer z-index */
+.booking-summary > div{position: fixed!important; top:50%; }
+ul {list-style-type: none; padding: 0;}
+li{margin-bottom: 1em;}
+
+/* calendar */
+.DayPicker-Day{position: relative;}
+.DayPicker-Day--disabled,
+.DayPicker-Day--past,
+.DayPicker-Day--sundays {
+    color: #f2f2f2;
+    cursor: default;
+    background: transparent;
+}
+.DayPicker-Day--disabled{
+    color: #ccc;
+}
+.DayPicker-Day--today{
+  color: #4183C4; font-weight: bold;
+}
+.manage-app .DayPicker-Day--highlighted{
+  background: gold;
+  cursor: pointer;
+}
+.manage-app .DayPicker-Day--disabled{
+  cursor: pointer;
+  background: #efefef;
+  color: #444;
+}
+
+.checkbox.booked label:after,
+.checkbox.booked label:before{
+  padding-left: 0;
+  display: none !important;
+}
+.manage-header{display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+margin-bottom: 2em;
+}
+.manage-header > div{margin-right: 1em;}
+.apt-list{border-bottom: 1px solid #ddd;}
+.time-slots{
+padding: 15px 0;}
+
+.time-slots > div,
+.timeslots-card > div{
+  display: inline-block;
+  width: 45%;
+  background: #f2f2f2;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;}
